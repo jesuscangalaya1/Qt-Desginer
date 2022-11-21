@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Mongolian Baiti</family>
+    <pointsize>30</pointsize>
+   </font>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(110, 214, 188, 252));
+
+</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <widget class="QComboBox" name="comboPlatillo">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(161, 161, 236, 255));
+border-radius:20px;
+color:white;
+border:2px solid white;
+}
+QComboBox:hover{
+background-color:rgb(53,53,79);
+border-radius:10px;
+}
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Seleccione</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lomo Saltado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ceviche</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ají de Gallina</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causa Limeña</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pachamanca</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arroz con Pollo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tallarines a la Huancaina</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Aguadito</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Carapulcra</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboPrecio">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>150</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(161, 161, 236, 255));
+border-radius:20px;
+color:white;
+border:2px solid white;
+}
+QComboBox:hover{
+background-color:rgb(53,53,79);
+border-radius:10px;
+}
+
+
+
+
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>0</y>
+      <width>671</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Seleccione !, Que tipo de &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;platillo Quiere...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:Black;
+</string>
+    </property>
+    <property name="text">
+     <string>Platillos:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>110</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:Black;
+</string>
+    </property>
+    <property name="text">
+     <string>Precios:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnVer">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>310</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:1 rgba(161, 161, 236, 255));
+border-radius:10px;
+color:white;
+border:2px solid white;
+}
+QPushButton:hover{
+background-color:rgb(53,53,79);
+border-radius:10px;
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Ver Precio..</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblPrecio">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>651</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:black;
+</string>
+    </property>
+    <property name="text">
+     <string>El Precio del Platillo es:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBack">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>330</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(170, 170, 255);
+border-radius:10px;
+border:3px solid black;
+color:black;
+
+}
+QPushbutton:hover{
+background-color:white;
+}
+
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
